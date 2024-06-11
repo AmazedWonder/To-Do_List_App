@@ -15,4 +15,7 @@ function addTask(params) {
         li.appendChild(span);
         listContainer.appendChild(li);
     }
+
+    inputBox.value == "";
+    // saveData()
 }

@@ -84,6 +84,8 @@ body{
     padding: 10px;
     font-weight: 14px;
     border-bottom: 1px solid white;
+
+    margin-right: 10px;
   }
 
   input::placeholder{
@@ -103,6 +105,8 @@ body{
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     transition: .2s ease-in-out;
+
+    /* margin-left: 10px; */
   }
 
   button:hover{
@@ -137,7 +141,9 @@ body{
   }
 
   ul:hover{
-    background: rgba(225, 225, 225, .1);
+    /* background: rgba(225, 225, 225, .1); */
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   ul li.checked{
