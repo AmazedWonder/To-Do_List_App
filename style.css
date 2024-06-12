@@ -140,14 +140,18 @@ body{
     transition: .2s ease-in-out;
   }
 
-  ul:hover{
-    /* background: rgba(225, 225, 225, .1); */
+  /* ul:hover{
+    background: rgba(225, 225, 225, .1);
     padding-top: 15px;
     padding-bottom: 15px;
+  } */
+
+  li:hover{
+    background: rgba(228, 221, 221, .3);
   }
 
   ul li.checked{
-    /* color: #410841; */
+    color: #410841;
     text-decoration: line-through;
   }
 
