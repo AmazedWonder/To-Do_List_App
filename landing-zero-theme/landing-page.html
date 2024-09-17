@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Landing Todo List App Landing page Bootstrap Theme with Video</title>
+    <title>Landing Todo List App Landing page with Video</title>
     <meta name="description" content="This is a free Bootstrap landing page theme created for BootstrapZero. Feature video background and one page design." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Codeply">
@@ -55,12 +55,15 @@
                 <h1 class="cursive">Your Simple, Smart Todo List</h1>
                 <h4>Helps keep your tasks in check, and stay on top of your day</h4>
                 <hr>
-                <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; <a href="../to-do-list/to-do.html" class="btn btn-primary btn-xl page-scroll">Get Started</a>
+                <a href="#video-section" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; <a href="../to-do-list/to-do.html" class="btn btn-primary btn-xl page-scroll">Get Started</a>
             </div>
         </div>
-        <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
-            <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+        <!-- Section for the video -->
+         <section id="video-section" style="margin-top: 100px;">
+        <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="my postr.jpg" id="video-background" controls>
+            <source src="videos/To-do_App_Vid.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
+    </section>
     </header>
     <section class="bg-primary" id="one">
         <div class="container">
@@ -121,8 +124,8 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/deer.jpg">
-                        <img src="./assets/deer.jpg" class="img-responsive" alt="Image 1">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/addTask.jpg">
+                        <img src="./assets/addTask.jpg" class="img-responsive" alt="Image 1">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -133,8 +136,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/beach.jpg">
-                        <img src="./assets/beach.jpg" class="img-responsive" alt="Image 2">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/editTask.jpg">
+                        <img src="./assets/editTask.jpg" class="img-responsive" alt="Image 2">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -146,8 +149,8 @@
                 </div>
 				<div class="clearfix hidden-lg"> </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
-                        <img src="./assets/lake.jpg" class="img-responsive" alt="Image 3">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/delTask.jpg">
+                        <img src="./assets/delTask.jpg" class="img-responsive" alt="Image 3">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -157,7 +160,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <!-- <div class="col-lg-4 col-sm-6">
                     <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/bike.jpg">
                         <img src="./assets/bike.jpg" class="img-responsive" alt="Image 4">
                         <div class="gallery-box-caption">
@@ -193,7 +196,7 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -416,5 +419,6 @@
     <script src="./js/jquery.easing.min.js"></script>
     <script src="./js/wow.js"></script>
     <script src="./js/scripts.js"></script>
+    <script src="./js/vid.js"></script>
   </body>
 </html>
