@@ -4,6 +4,12 @@
 
 This To-Do List app is designed to help individuals manage their daily tasks efficiently by allowing them to add, edit, and delete tasks. The app includes a simple and intuitive landing page that guides users through its basic functionality. Unlike more complex project management tools like Trello, this app focuses solely on task management without features like calendars, alarms, or categorized task sections. It leverages local storage to save tasks directly in the user's browser, ensuring that no external database is required. This project is not yet proven in a production environment, but it has been tested extensively in a development setup.
 
+<video controls src="To-do App Vid.mp4" title="Title"></video>
+
+## Live Demo
+
+You can check out the live version of the app [here](https://your-deployed-app-link.com).
+
 ### What It Doesn't Do
 - **Calendars**: The app does not include a calendar or date-based sorting.
 - **Notifications**: There are no push notifications or reminders for task deadlines.
